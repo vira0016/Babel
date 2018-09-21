@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,17 @@
     "node-fetch": "^2.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vira0016/Babel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vira0016/Babel/issues"
+  },
+  "homepage": "https://github.com/vira0016/Babel#readme",
   "description": ""
 }
